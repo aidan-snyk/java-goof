@@ -1,4 +1,4 @@
-title: 🛠️ This PR fixes {{ issue_count }} issues
+title: This PR fixes {{ issue_count }} issues
 branchName: fix/{{ issue_count }}-issues
 commitMessage: "fix: {{ issue_count }} Snyk issues"
 description: |
@@ -11,8 +11,8 @@ description: |
 
   Fix applied by {{ snyk_org_name }}
   Fixes {{ package_name }}
-  Fix is applied by moving from {{ package_from}}
-  Fix is applied by moving to {{ package_to}}
+  Fix is applied by moving from {{ package_from }}
+  Fix is applied by moving to {{ package_to }}
   branchName: fix/{{ issue_count }}-issues
   Is this pr a fix pr? {{ is_fix_pr }}
   Is this pr a backlog pr? {{ is_backlog_pr }}
